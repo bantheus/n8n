@@ -8,6 +8,9 @@ services:
     environment:
       GENERIC_TIMEZONE: America/Sao_Paulo
       N8N_DEFAULT_LOCALE: pt-BR
+      N8N_LOG_LEVEL: info
+      N8N_LOG_OUTPUT: file
+      N8N_LOG_FILE_LOCATION: /home/node/.n8n/logs/
     restart: unless-stopped
     networks:
       - n8n-network

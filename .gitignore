@@ -1,9 +1,29 @@
+# N8N logs and data
 *.log
+logs/
 database*
 *.journal
 config
+
+# N8N directories
 /binaryData
 /git
 /minio
 /nodes
 /ssh
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
