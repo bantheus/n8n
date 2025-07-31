@@ -7,6 +7,7 @@ services:
       - ./:/home/node/.n8n
     environment:
       GENERIC_TIMEZONE: America/Sao_Paulo
+      N8N_DEFAULT_LOCALE: pt-BR
     restart: unless-stopped
     networks:
       - n8n-network
