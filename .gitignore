@@ -1,0 +1,9 @@
+*.log
+database*
+*.journal
+config
+/binaryData
+/git
+/minio
+/nodes
+/ssh
